@@ -1,0 +1,68 @@
+#sn{
+    margin-top: 25px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.dc {
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#pad {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#car {
+    margin-top: 25px;
+}
+
+.gd {
+    margin-top: 25px;
+}
+
+#int {
+    padding-top: 25px;
+}
+
+.out {
+    background-color: rgb(56, 55, 55);
+    color: rgb(253, 250, 250);
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+#pad {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#newpad{
+    padding-left: 50px;
+    padding-right: 15   px;
+    text-align: left;
+}
+
+#logopad{
+    padding-left: 50px;
+    text-align: left;
+}
+#lastpad{
+    padding-left: 15px;
+    text-align: left;
+}
+#hot{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#pp{
+    margin-top: 25px;
+}
+#b{
+    background-color:rgb(0, 0, 0);
+}
+
