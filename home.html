@@ -1,320 +1,344 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Perfect Property</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="homestyle.css" />
-</head>
-
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TryHackME- Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><button type="button" class="btn btn-primary">Perfect Property</button></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><button type="button"
-                                class="btn btn-success">Home</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Features</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-warning">Team</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-light">About</button></a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <table>
-                        <tr>
-                            <td id="pad"><button type="button" class="btn btn-warning"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-instagram" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                                    </svg></button></td>
-                            <td id="pad"><button type="button" class="btn btn-warning"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg></button></td>
-                            <td id="pad"><button type="button" class="btn btn-warning"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-headset" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
-                                    </svg></button></td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!--CAROUSEL-->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="opacity-75"><img src="https://source.unsplash.com/MAnVoJlQUvg/1400x700"
-                        class="d-block w-100" alt="..."></div>
-            </div>
-            <div class="carousel-item">
-                <div class="opacity-75"><img src="https://source.unsplash.com/KQgrVfR3r74/1400x700"
-                        class="d-block w-100" alt="..."></div>
-            </div>
-            <div class="carousel-item">
-                <div class="opacity-75"><img src="https://source.unsplash.com/GGupkreKwxA/1400x700"
-                        class="d-block w-100" alt="..."></div>
-            </div>
-            <div class="carousel-item">
-                <div class="opacity-75"><img src="https://source.unsplash.com/WNW8qPAqdsg/1400x700"
-                        class="d-block w-100" alt="..."></div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!--NEXT DIV-->
-    <div id="b">
+    <header class="text-yellow-400 bg-grey-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-8 flex-col md:flex-row items-center">
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-green-500" href="homa.html"><b><h2>Home</h2></b></a>
+          <a class="mr-5 hover:text-green-500" href="#"><b><h2>About</h2></b></a>
+          <a class="mr-5 hover:text-green-500" href="#"><b><h2>Contact Us</h2></b></a>
+          <a class="mr-5 hover:text-green-500" href="#"><b><h2>Blog</h2></b></a>
+          <a class="mr-5 hover:text-green-900" href="#"><b><h2>Online</h2></b></a>
+          <a class="mr-5 hover:text-green-900" href="#"><b><h2>Message</h2></b></a>
+        </nav>
         <table>
-            <tr>
-                <td><img src="https://source.unsplash.com/_TPTXZd9mOo/1400x700" alt="..." height="300" width="500"></td>
-                <td id="tpad">
-                    <h1>"Find your dream home with ease"<br>
-                        <h4 id="hh"> explore our property listings today!</h4>
-                    </h1><button type="button" class="btn btn-warning">Check Property Now!</button>
-                </td>
-            </tr>
+          <tr>
+            <td><button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-yellow hover:bg-black-200 rounded text-base mt-4 md:mt-0">Get Black Box
+              <svg fill="yellow" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button></td>
+            <td id="pad"><button class="inline-flex items-center bg-green-100 border-0 py-1 px-3 focus:outline-none hover:bg-white-200 rounded text-base mt-4 md:mt-0">
+              <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox= "0 0 25 25"
+                    fill="currentColor"
+                    class="h-8 w-8">
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+                      clip-rule="evenodd" />
+                  </svg>
+            </button></td>
+          </tr>
         </table>
+        
+      </div>
+    </header>
 
-        <!--CARDS-->
-        <div class="container" id="card">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/n95VMLxqM2I/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Sustainability</h5>
-                            <p class="card-text">At our property website, we're committed to promoting sustainability
-                                and environmentally-friendly practices. We believe that sustainable homes not only
-                                benefit the environment but also provide a healthier and more comfortable living space
-                                for homeowners.Explore our listings
-                                today and discover the many benefits of sustainable living.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/AqBaQuHLHos/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Trust</h5>
-                            <p class="card-text">At our property website, trust is at the heart of everything we do. We
-                                understand that buying or selling a property can be a stressful experience, which is why
-                                we're committed to providing our clients with a transparent, reliable, and trustworthy
-                                service.Choose us for your property needs and experience the peace of mind
-                                that comes with working with a trusted partner.</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/k7Xj00Yo6MA/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrity</h5>
-                            <p class="card-text">At our property website, we pride ourselves on our unwavering
-                                commitment to integrity. We believe that transparency, honesty, and ethical behavior are
-                                essential to building long-term relationships with our clients. We understand that
-                                buying or selling a property is a significant decision, and we're committed to providing
-                                our clients with accurate information, unbiased advice, and fair pricing.
-                            </p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+    <!--SECTION 1-->
+    <section class="text-gray-400">
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="hacking_hands"
+            src="https://icohs.edu/wp-content/uploads/2022/04/red-hat-hacker.jpg"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
+          >
+            Welcome
+          </h1>
+          <p>msf > use exploit/windows/smb/psexecmsf > RHOST => 192.168.0.2</p>
+          <p>
+            msf exploit(psexec) > set EXE::Custom
+            /root/Desktop/Misc/Veil-master/payload.exe EXE::Custom =>
+            /root/Desktop/Misc/Veil-master/payload.exe msf exploit(psexec) >
+            exploit<span>|</span>
+          </p>
+          <div class="flex w-full md:justify-start justify-center items-end">
+            <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+              <label for="hero-field" class="leading-7 text-sm text-red-400"
+                >Enter Email</label
+              >
+              <input
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                class="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:ring-2 focus:ring-blue-900 focus:bg-transparent focus:border-blue-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
             </div>
+            <button
+              class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+            >
+              SignUp
+            </button>
+          </div>
         </div>
-
-        <!--New CARDS-->
-        <div class="container" id="mar">
-            <h1>
-                <p align="center">Our Team<br>
-                <h5>"Our team of expert property consultants is dedicated to providing exceptional service to our
-                    clients. With years of experience in the industry, our consultants are well-versed in the latest
-                    market trends and have a keen eye for identifying the perfect properties to match our clients'
-                    needs. We pride ourselves on our personalized approach, taking the time to understand our clients'
-                    preferences and guiding them through every step of the process. Whether you're looking to buy, sell
-                    or rent, our team is committed to helping you achieve your goals. Get to know our team today and let
-                    us help you find your perfect home."<br><br><br> </h5>
-                </p>
-            </h1>
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/tAvpDE7fXgY/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Samuel Parker</h5>
-                            <p class="card-text">Hello! I am Samuel.<br>Visit me at :<br></p>
-                            <table>
-                                <tr>
-                                    <td id="last">Whatsapp</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-instagram" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                                    </svg></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Instagram</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg></button></td>
-                                </tr>
-                            </table>
-                            <a href="#" class="btn btn-dark">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/c_GmwfHBDzk/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Jhon Puth</h5>
-                            <p class="card-text">Hi! I am Jhon.<br>Visit me at :<br></p>
-                            <table>
-                                <tr>
-                                    <td id="last">Whatsapp</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-instagram" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                                    </svg></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Instagram</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg></button></td>
-                                </tr>
-                            </table>
-                            <a href="#" class="btn btn-primary">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/vmBik4xv27s/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Tom Maxwell</h5>
-                            <p class="card-text">Hey! I am Tom.<br>Visit me at :<br></p>
-                            <table>
-                                <tr>
-                                    <td id="last">Whatsapp</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-instagram" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                                    </svg></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Instagram</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg></button></td>
-                                </tr>
-                            </table>
-                            <a href="#" class="btn btn-success">Visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://source.unsplash.com/_H6wpor9mjs/1400x700" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Sarah Sahi</h5>
-                            <p class="card-text">Hello! I am Sarah.<br>Visit me at :<br></p>
-                            <table>
-                                <tr>
-                                    <td id="last">Whatsapp</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-instagram" viewBox="0 0 16 16">
-                                        <path
-                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                                    </svg></button></td>
-                                </tr>
-                                <tr>
-                                    <td>Instagram</td>
-                                    <td><button type="button" class="btn btn-dark"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                    </svg></button></td>
-                                </tr>
-                            </table>
-                            <a href="#" class="btn btn-danger">Visit</a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </section>
+    
+    <!--SECTION 2-->
+    <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="-my-8 divide-y-2 divide-gray-800">
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="font-semibold title-font text-white">Keylogger</span>
             </div>
-
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">
+                Press Key and get Hacked
+              </h2>
+              <p class="leading-relaxed">
+                Hack files containing sensitive data.
+              </p>
+              <a class="text-blue-400 inline-flex items-center mt-4"
+                >Start Now
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap"
+          >
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="font-semibold title-font text-white"
+                >Dos Attack</span
+              >
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">
+                Flooding the network
+              </h2>
+              <p class="leading-relaxed">
+                Hacking by sending requests and flooding websites.
+              </p>
+              <a class="text-blue-400 inline-flex items-center mt-4"
+                >Start Now
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap"
+          >
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="font-semibold title-font text-white"
+                >Bait and Switch</span
+              >
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">
+                Buy advertisement space
+              </h2>
+              <p class="leading-relaxed">
+                Hacking by eye-catching advertisement
+              </p>
+              <a class="text-blue-400 inline-flex items-center mt-4"
+                >Start Now
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
-        <div id="lastdiv">
-            <h1>Contact us<br><br><br></h1>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your name with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <button type="submit" class="btn btn-danger">Submit</button>
-            </form>
+      </div>
+    </section>
+
+    <!--SECTION 3-->
+    <section class="text-gray-400 bg-yellow-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div
+          class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col"
+        >
+          <div
+            class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-blue-400 bg-gray-800 flex-shrink-0"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="sm:w-16 sm:h-16 w-10 h-10"
+              viewBox="0 0 24 24"
+            >
+            <img src="https://cdn2.iconfinder.com/data/icons/danger-problems-2/512/xxx048-512.png">
+              
+            </svg>
+          </div>
+          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <h2 class="text-white text-lg title-font font-medium mb-2">
+              Anonymous User 1
+            </h2>
+            <p class="leading-relaxed text-base">
+              “Human Stupidity, that’s why Hackers always win.”
+            </p>
+            <a class="mt-3 text-blue-400 inline-flex items-center"
+              >Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
         </div>
-    </div>
+        <div
+          class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col"
+        >
+          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <h2 class="text-white text-lg title-font font-medium mb-2">
+              Anonymous User 2
+            </h2>
+            <p class="leading-relaxed text-base">
+              "This is our world now The world of the Anonymous."
+            </p>
+            <a class="mt-3 text-blue-400 inline-flex items-center"
+              >Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-blue-400 bg-gray-800 flex-shrink-0"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="sm:w-16 sm:h-16 w-10 h-10"
+              viewBox="0 0 24 24"
+            >
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <img src="https://cdn2.iconfinder.com/data/icons/danger-problems-2/512/xxx048-512.png">
+            </svg>
+          </div>
+        </div>
+        <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+          <div
+            class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-blue-400 bg-gray-800 flex-shrink-0"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="sm:w-16 sm:h-16 w-10 h-10"
+              viewBox="0 0 24 24"
+            >
+            <img src="https://cdn2.iconfinder.com/data/icons/danger-problems-2/512/xxx048-512.png">
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <h2 class="text-white text-lg title-font font-medium mb-2">
+              Anonymous User 3
+            </h2>
+            <p class="leading-relaxed text-base">
+              "I was taught in high school that hacking was cool."
+            </p>
+            <a class="mt-3 text-blue-400 inline-flex items-center"
+              >Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <button
+          class="flex mx-auto mt-20 text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+        >
+          <table>
+            <tr>
+              <td>Load More</td><td id="pad"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg></td>
+            </tr>
+          </table>
+        </button>
+      </div>
+    </section>
+    <!--SECTION 4-->
 
-</body>
-
+  </body>
 </html>
